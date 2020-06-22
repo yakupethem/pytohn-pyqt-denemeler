@@ -1,0 +1,96 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '_combobox.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.2
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(800, 762)
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        MainWindow.setFont(font)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.comboboxKus = QtWidgets.QComboBox(self.centralwidget)
+        self.comboboxKus.setGeometry(QtCore.QRect(130, 50, 251, 61))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.comboboxKus.setFont(font)
+        self.comboboxKus.setObjectName("comboboxKus")
+        self.comboboxAraba = QtWidgets.QComboBox(self.centralwidget)
+        self.comboboxAraba.setGeometry(QtCore.QRect(420, 50, 281, 61))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.comboboxAraba.setFont(font)
+        self.comboboxAraba.setObjectName("comboboxAraba")
+        self.comboboxmeyve = QtWidgets.QComboBox(self.centralwidget)
+        self.comboboxmeyve.setGeometry(QtCore.QRect(130, 170, 241, 61))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.comboboxmeyve.setFont(font)
+        self.comboboxmeyve.setObjectName("comboboxmeyve")
+        self.pushButtonSil = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonSil.setGeometry(QtCore.QRect(130, 300, 231, 61))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButtonSil.setFont(font)
+        self.pushButtonSil.setObjectName("pushButtonSil")
+        self.pushButtonGster = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonGster.setGeometry(QtCore.QRect(460, 300, 231, 61))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButtonGster.setFont(font)
+        self.pushButtonGster.setObjectName("pushButtonGster")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(90, 390, 661, 81))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setText("")
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(80, 560, 661, 81))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setText("")
+        self.label_2.setObjectName("label_2")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 27))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "combobox"))
+        self.pushButtonSil.setText(_translate("MainWindow", "sil"))
+        self.pushButtonGster.setText(_translate("MainWindow", "göster"))

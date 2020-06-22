@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/Turkey.ico</file>
+    <file>icon/Baykuş.ico</file>
+    <file>icon/Time.ico</file>
+    <file>Time.ico</file>
+  </qresource>
+</RCC>
